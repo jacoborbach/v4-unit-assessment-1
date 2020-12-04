@@ -1,0 +1,194 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+h2, section, nav > a {
+    margin-left: 15px;
+}
+
+h2 {
+    margin-bottom: 0px;
+}
+nav > a {
+    font-size: 30px;
+    font-weight: 400;
+}
+
+nav {
+    background-color: aquamarine;
+}
+
+section {
+    border: dotted;
+    border-color: darkblue;
+    border-width: thin;
+}
+
+#purpleSquare {
+    background-color: purple;
+    width: 200px;
+    height: 80px;
+    border: solid;
+    border-color: red;
+}
+
+#blueBox {
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    box-shadow: 8px 8px 10px black;
+}
+
+#purpleSquare, #blueBox, #pinkBox {
+    display: inline-block;
+    padding: 10px;
+    margin: 15px;
+}
+
+#pinkBox {
+    background-color: #e46c94;
+    height: 250px;
+    width: 250px;
+    border: solid;
+    border-width: thin;
+}
+
+h2 {
+    text-align: left;
+}
+
+#firstCircle {
+    border: solid;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    border-width: thin;
+}
+
+#secondCircle {
+    border: solid;
+    border-radius: 50%;
+    width: 110px;
+    height: 110px;
+    border-width: thin;
+}
+
+#thirdCircle {
+    border: solid;
+    border-radius: 50%;
+    width: 140px;
+    height: 140px;
+    border-width: thin;
+}
+
+#firstCircle, #secondCircle, #thirdCircle {
+    margin: auto;
+}
+
+#leftEye {
+    background-color: black;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    margin-top: 20px;
+    margin-left: 20px;
+    display: inline-block;
+}
+
+#rightEye {
+    background-color: black;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    margin-left: 10px;
+    display: inline-block;
+}
+
+#carrot {
+    width: 30px;
+    height: 30px;
+   padding-left: 20px;
+   padding-top: 0px;
+}
+
+#topButton {
+    background-color: black;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    margin: auto;
+    margin-top: 18px;
+}
+
+#middleButton {
+    background-color: black;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    margin: auto;
+    margin-top: 6px;
+}
+
+#lastButton {
+    background-color: black;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    margin: auto;
+    margin-top: 6px;
+}
+
+
+
+
+
+/* Everything Section */
+#outerBox {
+     background-color: beige;
+    border: solid;
+    border-width: thin;
+    width: 270px;
+    height: 270px;
+    margin: 8px;
+}
+
+#innerCircle {
+    background-color: green;
+    float: left;
+    padding-top: 0px;
+    margin-top: 0px;
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    border: solid;
+    border-width: thin;
+}
+
+#redSquare {
+    background-color: maroon;
+    width:  110px;
+    height: 110px;
+    margin-top: 35px;
+    margin-left: 35px;
+}
+
+#blueCircle {
+    background-color: blue;
+    border-radius: 50%;
+    height: 90px;
+    width: 90px;
+    
+}
+
+span {
+    color: white;
+    font-size: 11px;
+}
+
+img {
+    width: 50px;
+    height: 50px;
+    padding-left: 20px;
+    padding-top: 20px;
+}

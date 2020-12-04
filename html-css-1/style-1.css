@@ -1,0 +1,26 @@
+section {
+    border: dotted;
+}
+
+nav {
+    background-color: #fc7c7c;  
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+nav > a {
+    font-size:25px;
+    padding: 12px;
+}
+
+#Logo {
+    font-size: 40px;
+}
+
+#floatLeft {
+    float: left;
+}
+
+#floatRight {
+    float:right;
+}
